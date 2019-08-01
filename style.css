@@ -11,11 +11,12 @@ html, body {
   -ms-user-select: none;
   user-select: none;
   max-width: 100%;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 
 }
 .navbar {
   padding: .8rem;
+  transition: top 0.3s;
 }
 .navbar-nav li {
   padding-right: 20px;
@@ -146,7 +147,7 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical
+  resize: vertical;
 }
 input[type=submit] {
   background-color: #9613e2;
