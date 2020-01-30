@@ -11,7 +11,7 @@ html, body {
   -ms-user-select: none;
   user-select: none;
   max-width: 100%;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
 
 }
 .navbar {
@@ -167,6 +167,22 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+#proficiency {
+  padding: 5.5%;
+}
+#about_me {
+  padding: 11%;
+}
+#projects {
+  padding: 5%;
+}
+#three_project_cards {
+  padding: 5%;
+}
+#connect {
+  padding: 5%;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -174,8 +190,38 @@ input[type=submit]:hover {
     font-size: 4em;
     padding: 2rem;
   }
+  #proficiency {
+    padding: 5%;
+  }
+  #about_me {
+    padding: 5%;
+  }
+  #projects {
+    padding: 5%;
+  }
+  #three_project_cards {
+    padding: 5%;
+  }
+  #connect {
+    padding: 5%;
+  }
   }
 @media (max-width: 768px) {
+  #proficiency {
+    padding: 5%;
+  }
+  #about_me {
+    padding: 5%;
+  }
+  #projects {
+    padding: 5%;
+  }
+  #three_project_cards {
+    padding: 5%;
+  }
+  #connect {
+    padding: 5%;
+  }
   .carousel-caption{
     top: 45%;
   }
@@ -200,6 +246,25 @@ input[type=submit]:hover {
   }
 }
 @media (max-width: 576px) {
+  #test {
+    padding: 5%; 
+    margin-top: 10%;
+  }
+  #proficiency {
+    padding: 20%;
+  }
+  #about_me {
+    padding: 5%;
+  }
+  #projects {
+    padding: 5%;
+  }
+  #three_project_cards {
+    padding: 5%;
+  }
+  #connect {
+    padding: 5%;
+  }
   .carousel-caption{
     top: 30%;
   }
