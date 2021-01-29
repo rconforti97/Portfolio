@@ -37,7 +37,6 @@ html, body {
 }
 .display-secondheader{
   -webkit-text-stroke: .1px rgb(0, 0, 0);
-  font-size: 800%;
   font-family: 'Cormorant Upright', serif;
 }
 .carousel-inner img {
