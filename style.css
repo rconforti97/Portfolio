@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
   /* border: 1px solid rgba(0, 225, 255, 0.267); */
 }
 .btn-primary:hover {
-  background-color: #a5a3a5;
+  background-color: #C49B53;
   border: rgb(255, 255, 255, 0.267);
 }
 .btn-lg{
@@ -133,10 +133,13 @@ body::-webkit-scrollbar {
 .about_me_photo {
   width: 400px;
 }
+.img-fluid {
+  margin-left: 1rem;
+}
 .img-fluid:hover{
   -moz-box-shadow: 0 0 10px rgb(104, 101, 101);
 	-webkit-box-shadow: 0 0 10px rgb(104, 101, 101);
-  box-shadow: 0 0 10px #CCABD8;
+  box-shadow: 0 0 10px rgb(131, 148, 92);
   opacity: 0.5;
 	filter: alpha(opacity=0);
 }
@@ -151,7 +154,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 input[type=submit] {
-  background-color: #CCABD8;
+  background-color: rgb(131, 148, 92);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -159,7 +162,7 @@ input[type=submit] {
   cursor: pointer;
 }
 input[type=submit]:hover {
-  background-color: #CCABD8;
+  background-color: rgb(131, 148, 92);
 }
 
 .container {
@@ -193,9 +196,9 @@ input[type=submit]:hover {
   color: #000000;
 }
 .fa-bitbucket{
-  color: #2163af;
+  color: #2163af;;
 }
-.fa-square-git{
+.fa-square-git {
   color: #f14e32;
 }
 .fa-code, .fa-bold, .fa-css3, .fa-java, .fa-python, .fa-cuttlefish, .fa-jira, .fa-database, .fa-bitbucket, .fa-square-git {
@@ -246,7 +249,12 @@ hr.light {
 #connect {
   padding: 5%;
 }
+
 .btn-outline-secondary{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
   color:black;
 }
 .btn-outline-secondary:hover {
@@ -395,7 +403,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/UNCC.jpg');
+  background-image: url('img/mountains.jpg');
   position: fixed;
   display: block;
   top: 0;
